@@ -5,23 +5,26 @@ body {
   margin: 0;
 }
 
-.poster {
+.container {
   width: 50%;
   margin-left: 25%;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
-.poster img {
+.container img {
   width: 100%;
   border: 5px solid white;
 }
 
-.poster h1 {
+.container h1 {
   font-family: 'Libre Baskerville', serif;
   text-transform: uppercase;
-  margin-top: 20px;
+  font-size: 36px;
+  margin: 25px 0 10px;
 }
 
-.poster p {
-  font-size: 16px;
+.container p {
+  font-size: 18px;
+  margin-top: 0;
+  letter-spacing: 0.5px;
 }
